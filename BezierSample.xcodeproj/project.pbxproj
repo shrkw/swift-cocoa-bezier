@@ -13,6 +13,7 @@
 		3B174DAE1C891B6E00973D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B174DAC1C891B6E00973D19 /* Main.storyboard */; };
 		3B174DB91C891B6E00973D19 /* BezierSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B174DB81C891B6E00973D19 /* BezierSampleTests.swift */; };
 		3B174DC41C891B6E00973D19 /* BezierSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B174DC31C891B6E00973D19 /* BezierSampleUITests.swift */; };
+		3B174DD21C891E0200973D19 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B174DD11C891E0200973D19 /* SomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3B174DBF1C891B6E00973D19 /* BezierSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B174DC31C891B6E00973D19 /* BezierSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierSampleUITests.swift; sourceTree = "<group>"; };
 		3B174DC51C891B6E00973D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B174DD11C891E0200973D19 /* SomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3B174DA61C891B6D00973D19 /* AppDelegate.swift */,
 				3B174DA81C891B6D00973D19 /* ViewController.swift */,
+				3B174DD11C891E0200973D19 /* SomeView.swift */,
 				3B174DAA1C891B6E00973D19 /* Assets.xcassets */,
 				3B174DAC1C891B6E00973D19 /* Main.storyboard */,
 				3B174DAF1C891B6E00973D19 /* Info.plist */,
@@ -254,6 +257,7 @@
 			files = (
 				3B174DA91C891B6D00973D19 /* ViewController.swift in Sources */,
 				3B174DA71C891B6D00973D19 /* AppDelegate.swift in Sources */,
+				3B174DD21C891E0200973D19 /* SomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
